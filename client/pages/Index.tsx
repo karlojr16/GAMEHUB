@@ -31,7 +31,7 @@ export default function Index() {
       <section className="relative overflow-hidden bg-gradient-to-r from-tournament-black via-tournament-gray-900 to-tournament-black">
         {/* Background Image */}
         <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60"
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-29"
           style={{
             backgroundImage: `url('https://cdn.builder.io/api/v1/image/assets%2F25c48a915d7645c7b4b39fc02001bd4d%2F7480793cb4c44488bbd096281663f1ba?format=webp&width=1920')`,
           }}
@@ -40,9 +40,9 @@ export default function Index() {
         {/* Light overlay for better text readability */}
         <div className="absolute inset-0 bg-gradient-to-r from-tournament-black/40 via-tournament-gray-900/30 to-tournament-black/40"></div>
 
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
+        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
           <div className="text-center">
-            <Badge className="mb-6 bg-tournament-red/20 text-tournament-red border-tournament-red/30 hover:bg-tournament-red/30">
+            <Badge className="mb-6 bg-tournament-red/20 text-gray-100 border-tournament-red/30 hover:bg-tournament-red/30">
               🏆 Plataforma #1 de Torneos Deportivos
             </Badge>
 
